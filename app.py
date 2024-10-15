@@ -3,6 +3,7 @@ from flask import Flask, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
 from dotenv import load_dotenv
 
+
 # Cargar las variables de entorno desde un archivo .env (opcional)
 load_dotenv()
 
